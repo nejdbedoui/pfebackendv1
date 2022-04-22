@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bp-api-pos:war">
+    <output-path>$PROJECT_DIR$/bp-api-pos/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bp-api-pos</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bp-api-pos-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bp-api-pos:war exploded" />
+    </root>
+  </artifact>
+</component>
